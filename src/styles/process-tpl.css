@@ -1,0 +1,49 @@
+.process-form .poros-input[readonly="true"],
+.process-form .poros-input[disabled],
+.process-form .poros-select-disabled .poros-select-selection {
+  background-color: #ffffff;
+  color: #666;
+  border-color: #fff;
+  border-radius: 0;
+  cursor: default;
+}
+.process-form .poros-form {
+  border-width: 0 0 0 0;
+  border-color: #e0e0e0;
+  border-style: solid;
+}
+.process-form .poros-form .poros-form-item {
+  margin-bottom: 0;
+  min-height: auto;
+  border: #e0e0e0 solid 1px;
+  margin: 0 -1px -1px 0;
+}
+.process-form .poros-form-item-control {
+  line-height: 35px;
+}
+.process-form .poros-form-item-label {
+  background: #f7f7f9;
+  font-size: 12px;
+  line-height: 35px;
+}
+.process-form .poros-form label {
+  font-size: 12px;
+}
+.process-form .poros-table-small > .poros-table-content > .poros-table-scroll > .poros-table-body > table > .poros-table-thead > tr > th {
+  background: #f8f8f8;
+  padding: 3px 5px 3px 10px;
+}
+.process-form .poros-upload {
+  display: none;
+}
+.process-form .poros-upload-list-item-card-actions {
+
+  display: none;
+}
+
+.poros-select-selection--single .poros-select-selection__rendered{
+  color: #000;
+}
+.poros-input-disabled {
+  color:#000
+}

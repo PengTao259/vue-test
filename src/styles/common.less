@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  min-width: 1280px;
+}
+html, body {
+  height: 100%;
+  min-width: 1280px;
+}
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 10px; /*对垂直流动条有效*/
+  height: 14px; /*对水平流动条有效*/
+}
+
+/*定义滚动条的轨道颜色、内阴影及圆角*/
+::-webkit-scrollbar-track{
+  background-color: #f8f8f8;
+  border-radius: 2px;
+}
+
+
+/*定义滑块颜色、内阴影及圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: fade(@primary-color, 15%);
+  background-color: fade(@primary-color, 7.7%);
+  &:hover {
+    border-color: fade(@primary-color, 37%);
+    background-color: fade(@primary-color, 11%);
+  }
+  &:active {
+    border-color: fade(@primary-color, 36%);
+    background-color: fade(@primary-color, 35%);
+  }
+}
+
+/*定义两端按钮的样式*/
+::-webkit-scrollbar-button {
+  background-color:#f8f8f8;
+}
+
+/*定义右下角汇合处的样式*/
+::-webkit-scrollbar-corner {
+  background:#f8f8f8;
+} 
+.table-page-search-submitButtons .poros-btn-primary + .poros-btn-primary {
+  background: #fff;
+  color: @primary-color;
+  text-shadow: none;
+}
+.poros-radio-inner {
+  border-color:#7f7f7f ;
+}
+.poros-radio-checked .poros-radio-inner{
+  border-color: #4064df;
+}
+.poros-modal-header .poros-modal-title{
+  min-height: 22px;
+}
